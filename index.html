@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lista de personajes de Rick and Morty</title>
+	<style>
+		body {
+			background-color: #DAF7A6;
+		}
+	</style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<div class="logo-container">
+		    <img src="https://1000marcas.net/wp-content/uploads/2022/04/Rick-and-Morty-500x281.png" alt="Logo de Rick and Morty">
+		</div>
+		<nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Personajes</a></li>
+                <li><a href="#">Episodios</a></li>
+            </ul>
+		</nav>
+        
+	</header>
+    <main>
+        <label for="card-select">Seleccionar un personaje: </label>
+        <select id="card-select">
+            <option value="all">Todos</option>
+        </select>        
+        <div class="cards-container"></div>
+    </main>
+    <br>
+    <footer>
+        <div class="column">        
+            <h3>Desarrollado por:</h3>
+            <ul>
+                <li>
+                    <img src="https://cdn-icons-png.flaticon.com/512/992/992490.png" alt="logo-usuario">
+                    <a>Alexandra Peña Cera</a>
+                </li>
+                <li>
+                    <img src="https://cdn-icons-png.flaticon.com/512/992/992490.png" alt="logo-usuario">
+                    <a>Juan Olmos Llinas</a>
+                </li>
+            </ul>                        
+        </div>
+        <div class="column">
+            <h3>Contacto:</h3>
+            <ul>
+                <li><img src="https://images.vexels.com/media/users/3/140138/isolated/preview/88e50689fa3280c748d000aaf0bad480-icono-de-ronda-de-correo-electronico-1.png" alt="logo-correo">
+                    <a href="mailto:jolmos10@cuc.edu.co">jolmos10@cuc.edu.co</a></li>
+                <li><img src="https://images.vexels.com/media/users/3/140138/isolated/preview/88e50689fa3280c748d000aaf0bad480-icono-de-ronda-de-correo-electronico-1.png" alt="logo-correo"> 
+                    <a href="mailto:apena21@cuc.edu.co">apena21@cuc.edu.co</a></li>
+                <li><img src="https://ceadigilaw.org/wp-content/uploads/2020/03/Universidad-de-la-costa.png" alt="logo-cuc">
+                    <a href="https://www.cuc.edu.co/">Universidad de la Costa</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Más sobre Rick and Morty</h3>
+            <ul>
+                <li><a href="https://www.adultswim.com/videos/rick-and-morty">Página oficial</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Rick_y_Morty">Wikipedia</a></li>
+                <li><a href="https://www.imdb.com/title/tt2861424/">IMDb</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
+
