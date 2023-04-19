@@ -177,7 +177,7 @@ footer img{
 }
 @media only screen and (min-width:767px) and (max-width:790px){
 	.cards-container {
-    grid-template-columns: repeat(2, 1fr); /* muestra 4 cards por fila */
+    grid-template-columns: repeat(2, 1fr); /* muestra 2 cards por fila */
     
 }
 }
